@@ -4,7 +4,8 @@ from pyrogram import Client, filters
 bot = Client(
     "this is testing era",
     api_id= 10738943,
-    api_hash= "da61e3a08b5ac78ce28b4a4cd854aeec" 
+    api_hash= "da61e3a08b5ac78ce28b4a4cd854aeec",
+    bot_token = "6412441114:AAF5nri-Vw1kcwvMn4JT4KzXH2Fjpxv3HHA"
 
 )
 
