@@ -9,8 +9,6 @@ bot = Client(
 
 )
 
-print("I AM ALIVE")
-bot.run
 
 #Send Message 
 @bot.on_message(filters.command('start') & filters.private)
@@ -20,7 +18,7 @@ def start (bot, message):
 
 #REply Message 
 @bot.on_message(filters.command('start'))
-def start (bot, message):
+def start2 (bot, message):
     bot.mesaage.reply_text("hiii")
 
 #Welcome Bot
@@ -61,5 +59,8 @@ def audio (bot, messaage):
 
 
 
-
+print("I AM ALIVE")
 bot.run
+
+
+bot.run()
